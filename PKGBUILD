@@ -9,7 +9,7 @@ provides=('bomi')
 install=$pkgname.install
 depends=('qt5-base' 'qt5-declarative' 'qt5-x11extras' 'qt5-quickcontrols' 'icu'
          'libdvdread' 'libdvdnav' 'libcdio-paranoia' 'libcdio'
-         'alsa-lib' 'libpulse' 'jack' 'libchardet' 'libbluray'
+         'alsa-lib' 'pulseaudio' 'jack' 'libchardet' 'libbluray'
          'mpg123' 'libva' 'libgl' 'fribidi' 'libass' 'ffmpeg')
 makedepends=('mesa' 'clang' 'pkg-config' 'python3' 'qt5-tools')
 optdepends=('libaacs: AACS decryption for Blu-ray support'
