@@ -1,9 +1,6 @@
-# Maintainer: xylosper <darklin20@gmail.com>
-# Contributor: willemw <willemw12@gmail.com>
-
 pkgname=bomi
 pkgver=0.9.2
-pkgrel=3
+pkgrel=1
 pkgdesc="Powerful and easy-to-use GUI multimedia player based on mpv"
 arch=('x86_64')
 url="http://$pkgname-player.github.io"
