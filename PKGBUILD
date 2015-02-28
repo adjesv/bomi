@@ -5,7 +5,7 @@ pkgdesc="Powerful and easy-to-use GUI multimedia player based on mpv"
 arch=('x86_64')
 url="http://$pkgname-player.github.io"
 license=('GPL')
-provides=('cmplayer')
+provides=('bomi')
 install=$pkgname.install
 depends=('qt5-base' 'qt5-declarative' 'qt5-x11extras' 'qt5-quickcontrols' 'icu'
          'libdvdread' 'libdvdnav' 'libcdio-paranoia' 'libcdio'
