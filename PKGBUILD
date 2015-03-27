@@ -1,5 +1,5 @@
 pkgname=bomi
-pkgver=0.9.2
+pkgver=0.9.5
 pkgrel=1
 pkgdesc="Powerful and easy-to-use GUI multimedia player based on mpv"
 arch=('x86_64')
@@ -11,12 +11,12 @@ depends=('qt5-base' 'qt5-declarative' 'qt5-x11extras' 'qt5-quickcontrols' 'icu'
          'libdvdread' 'libdvdnav' 'libcdio-paranoia' 'libcdio'
          'alsa-lib' 'pulseaudio' 'jack' 'libchardet' 'libbluray'
          'mpg123' 'libva' 'libgl' 'fribidi' 'libass' 'ffmpeg')
-makedepends=('mesa' 'clang' 'pkg-config' 'python3' 'qt5-tools')
+makedepends=('mesa' 'gcc' 'pkg-config' 'python3' 'qt5-tools')
 optdepends=('libaacs: AACS decryption for Blu-ray support'
             'libbdplus: BD+ decryption for Blu-ray support'
             'youtube-dl: streaming website support including YouTube')
 source=($pkgname-$pkgver.tar.gz::https://github.com/xylosper/bomi/archive/v$pkgver.tar.gz)
-md5sums=('071e5c2b2e21581eb91aa67ff9630b78')
+md5sums=('27eada1e9e01742067e5ed9e3b80395e')
 #options=(debug !strip)
 
 build() {
