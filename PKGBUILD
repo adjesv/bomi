@@ -1,5 +1,5 @@
 pkgname=bomi
-pkgver=0.9.5
+pkgver=0.9.11
 pkgrel=1
 pkgdesc="Powerful and easy-to-use GUI multimedia player based on mpv"
 arch=('x86_64')
