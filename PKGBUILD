@@ -16,7 +16,7 @@ optdepends=('libaacs: AACS decryption for Blu-ray support'
             'libbdplus: BD+ decryption for Blu-ray support'
             'youtube-dl: streaming website support including YouTube')
 source=($pkgname-$pkgver.tar.gz::https://github.com/xylosper/bomi/archive/v$pkgver.tar.gz)
-md5sums=('27eada1e9e01742067e5ed9e3b80395e')
+md5sums=('543c592f588c68d6f0c3cf254c288f58')
 #options=(debug !strip)
 
 build() {
